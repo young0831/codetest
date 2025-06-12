@@ -7,7 +7,7 @@ int solution(const char* t, const char* p) {
     int t_len = strlen(t);
     int p_len = strlen(p);
 
-    char t_cmp[21]; // 최대 20자리 숫자 + 널 문자
+    char t_cmp[20];
     long long p_val = atoll(p); // p를 long long으로 변환
 
     for (int i = 0; i <= t_len - p_len; i++) {
